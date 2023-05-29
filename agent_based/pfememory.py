@@ -1,9 +1,9 @@
 #!/usr/bin/env python3
 # -*- encoding: utf-8; py-indent-offset: 4 -*-
 #
-# Checks based on the ISIS-MIB.
+# Checks based on the JUNIPER-PFE-MIB.
 #
-# Copyright (C) 2022 Curtis Bowden <curtis.bowden@gmail.com>
+# Copyright (C) 2022 Curtis Bowden <sulefrederickjohne@gmail.com>
 #
 # This program is free software; you can redistribute it and/or
 # modify it under the terms of the GNU General Public License
@@ -60,7 +60,7 @@
 
 import re
 
-from cmk.base.plugins.agent_based.agent_based_api.v1 import (
+from .agent_based_api.v1 import (
     register,
     SNMPTree,
     exists,
