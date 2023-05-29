@@ -1,5 +1,5 @@
 {
-    'author': 'Erick Sule sulefrederickjohne@gmail.com',
+    'author': 'Erick Sule <sulefrederickjohne@gmail.com>',
     'description': 'Check based on Juniper PFE Free Memory Status',
     'download_url': 'https://github.com/sulefrederickjohne/juniper_fpc_memory',
     'files': {
