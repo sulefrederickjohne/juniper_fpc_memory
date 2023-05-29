@@ -6,11 +6,29 @@
 
 ## Description
 
-This is a template to develop Checkmk Extensions for Monitoring JUNIPER PFE Free NH and FW Memory
+juniper_fpc_memory is for Monitoring JUNIPER PFE Free NH and FW Memory
 
 ## Development
 
 For the best development experience use [VSCode](https://code.visualstudio.com/) with the [Remote Containers](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-containers) extension. This maps your workspace into a checkmk docker container giving you access to the python environment and libraries the installed extension has.
+
+## CheckMK
+
+Below are a few cmk cli examples that can be useful when developing a cmk plugin
+
+```
+# Service scan for exmaple.host
+cmk --verbose --perfdata --debug example.host
+
+# Clear prevous then detect plugins for pfememory
+cmk --verbose --perfdata --debug -II --detect-plugins=pfememory example.host
+
+# Check discovery for emaple.host
+cmk --verbose --perfdata --check-discovery example.host
+
+# Run pfememory plugin on example.host
+cmk --verbose --perfdata --plugins=pfememory example.host
+```
 
 ## Directories
 
