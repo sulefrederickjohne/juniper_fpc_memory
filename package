@@ -1,9 +1,9 @@
 {
-    'author': u'',
-    'description': u'',
-    'download_url': '',
+    'author': 'Erick Sule sulefrederickjohne@gmail.com',
+    'description': 'Check based on Juniper PFE Free Memory Status',
+    'download_url': 'https://github.com/sulefrederickjohne/juniper_fpc_memory',
     'files': {
-        'agent_based': [],
+        'agent_based': ['pfememory.py'],
         'agents': [],
         'checkman': [],
         'checks': [],
@@ -13,9 +13,10 @@
         'pnp-templates': [],
         'web': []
     },
-    'name': '',
-    'title': u'',
-    'version': '0.1',
-    'version.min_required': '2.0.0',
-    'version.packaged': '2.0.0'
+    'name': 'pfememory',
+    'title': 'Check based on Juniper PFE Free Memory Status',
+    'version': '1.0',
+    'version.min_required': '2.0.0p25',
+    'version.packaged': '2.0.0p25',
+    'version.usable_until': None
 }
