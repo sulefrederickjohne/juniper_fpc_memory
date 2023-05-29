@@ -1,5 +1,7 @@
 # Checkmk extension for JUNIPER-PFE-MIB
 
+![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/sulefrederickjohne/juniper_fpc_memory?label=version&logo=git&sort=semver)
+
 ![build](https://github.com/sulefrederickjohne/juniper_fpc_memory/workflows/build/badge.svg)
 ![flake8](https://github.com/sulefrederickjohne/juniper_fpc_memory/workflows/Lint/badge.svg)
 ![pytest](https://github.com/sulefrederickjohne/juniper_fpc_memory/workflows/pytest/badge.svg)
