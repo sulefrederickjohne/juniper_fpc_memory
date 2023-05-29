@@ -1,12 +1,12 @@
-# Checkmk extension for ...
+# Checkmk extension for JUNIPER-PFE-MIB
 
-![build](https://github.com/jiuka/checkmk_phion/workflows/build/badge.svg)
-![flake8](https://github.com/jiuka/checkmk_phion/workflows/Lint/badge.svg)
-![pytest](https://github.com/jiuka/checkmk_phion/workflows/pytest/badge.svg)
+![build](https://github.com/sulefrederickjohne/juniper_fpc_memory/workflows/build/badge.svg)
+![flake8](https://github.com/sulefrederickjohne/juniper_fpc_memory/workflows/Lint/badge.svg)
+![pytest](https://github.com/sulefrederickjohne/juniper_fpc_memory/workflows/pytest/badge.svg)
 
 ## Description
 
-This is a template to develop Checkmk Extensions
+This is a template to develop Checkmk Extensions for Monitoring JUNIPER PFE Free NH and FW Memory
 
 ## Development
 
