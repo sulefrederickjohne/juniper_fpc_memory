@@ -3,7 +3,7 @@
 #
 # Checks based on the JUNIPER-PFE-MIB.
 #
-# Copyright (C) 2022 Curtis Bowden <sulefrederickjohne@gmail.com>
+# Copyright (C) 2022 Erick Sule <sulefrederickjohne@gmail.com>
 #
 # This program is free software; you can redistribute it and/or
 # modify it under the terms of the GNU General Public License
