@@ -58,8 +58,6 @@
 # JUNIPER-MIB::jnxOperatingDescr.7.11.0.0 = STRING: FPC: MPCE Type 3 3D @ 10/*/*
 # JUNIPER-MIB::jnxOperatingDescr.7.12.0.0 = STRING: FPC: MPCE Type 1 3D @ 11/*/*
 
-# import re
-
 from .agent_based_api.v1 import (
     register,
     SNMPTree,
@@ -92,7 +90,7 @@ def parse_pfemem(string_table):
             if item.isnumeric() == True:
                 mem.append(item)
             # Extract Card Name then add memory data from above
-            elif isinstance(item, str) == True:
+            elif 'FPC' == item.split(' ')[0].strip(':'):
                 pfememory[i]['card'] = item
                 pfememory[i]['mem'] = mem
                 mem = []
